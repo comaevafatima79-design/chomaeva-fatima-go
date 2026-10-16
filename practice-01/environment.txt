@@ -1,0 +1,16 @@
+Результаты команд:
+
+go version
+go version go1.27.0 windows/amd64
+
+go env GOOS GOARCH GOROOT GOPATH
+windows
+amd64
+C:\Program Files\Go
+C:\Users\fatima\go
+
+Ответы на вопросы:
+- Версия Go: 1.27.0
+- GOOS: windows
+- GOARCH: amd64
+- Отличие GOROOT от каталога проекта: GOROOT это системная директория с установленным Go и стандартными библиотеками. А каталог проекта это наша личная папка, где лежат go.mod и наш файл main.go. Внутри GOROOT проект создавать нельзя.
